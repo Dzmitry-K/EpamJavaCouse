@@ -3,7 +3,7 @@ package BasicsOfSoftwareCodeDevelopment.LinearPrograms.FirstTask;
 /**
  * Найдите значение функции: z=((a-3)*b/2)+c.
  */
-public class Main {
+public class FirstTask {
     public static void main(String[] args) {
         System.out.println(functionValue(4, 2, 1));
     }
