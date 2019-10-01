@@ -12,8 +12,8 @@ public class ThirdTask {
     }
 
     static double functionValue(double x, double y) {
-        double a = toRadians(x);
-        double b = toRadians(y);
-        return (sin(a) + cos(b)) / (cos(a) - sin(b)) * tan(a * b);
+        double xInRadians = toRadians(x);
+        double yInRadians = toRadians(y);
+        return (sin(xInRadians) + cos(yInRadians)) / (cos(xInRadians) - sin(yInRadians)) * tan(xInRadians * yInRadians);
     }
 }
