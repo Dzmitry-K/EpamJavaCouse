@@ -1,4 +1,4 @@
-package BasicsOfSoftwareCodeDevelopment.LinearPrograms.FirstProgram;
+package BasicsOfSoftwareCodeDevelopment.LinearPrograms.FirstTask;
 
 /**
  * Найдите значение функции: z=((a-3)*b/2)+c.
