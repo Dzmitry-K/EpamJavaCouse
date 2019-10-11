@@ -1,5 +1,4 @@
 package BasicsOfSoftwareCodeDevelopment.LinearPrograms.SecondTask;
-
 /**
  * Вычислить значение выражения по формуле (все переменные принимают
  * действительные значения):

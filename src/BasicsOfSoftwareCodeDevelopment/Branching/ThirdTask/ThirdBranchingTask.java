@@ -4,7 +4,7 @@ package BasicsOfSoftwareCodeDevelopment.Branching.ThirdTask;
  *  Определить, будут ли они расположены на одной прямой.
  */
 public class ThirdBranchingTask {
-    static Boolean isPointsOnOneLine(int x1, int y1, int x2, int y2, int x3, int y3){
+    static boolean isPointsOnOneLine(int x1, int y1, int x2, int y2, int x3, int y3){
         return (x3 * (y2 - y1) - y3 * (x2 - x1) == x1 * y2 - x2 * y1);
     }
 

@@ -1,7 +1,6 @@
 package BasicsOfSoftwareCodeDevelopment.LinearPrograms.ThirdTask;
 
 import static java.lang.Math.*;
-
 /**
  * Вычислить значение выражения по формуле (все переменные принимают действительные значения):
  * ((sin(x) + cos(y)) / (cos(x) - sin(y)) * tg(x * y)

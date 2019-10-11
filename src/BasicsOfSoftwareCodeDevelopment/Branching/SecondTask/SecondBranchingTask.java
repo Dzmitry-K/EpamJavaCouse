@@ -1,9 +1,7 @@
 package BasicsOfSoftwareCodeDevelopment.Branching.SecondTask;
-
 /**
  * Найти max{min(a, b), min(c, d)}
  */
-
 public class SecondBranchingTask {
     static int max(int a, int b) {
         return a > b ? a : b;

@@ -1,10 +1,8 @@
 package BasicsOfSoftwareCodeDevelopment.Branching.FirstTask;
-
 /**
  * Даны два угла треугольника (в градусах). Определить, существует ли такой треугольник,
  * и если да, то будет ли он прямоугольным.
  */
-
 public class FirstBranchingTask {
     static String isTriangle(int x, int y) {
         if ((x + y) >= 180) {
