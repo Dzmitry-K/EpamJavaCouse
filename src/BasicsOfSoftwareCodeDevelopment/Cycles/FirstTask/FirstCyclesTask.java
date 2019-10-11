@@ -6,7 +6,7 @@ package BasicsOfSoftwareCodeDevelopment.Cycles.FirstTask;
 public class FirstCyclesTask {
     static int summ(int x) {
         int result = 0;
-        for (int i = 1; i <= x; i++) {
+        for (int i = 0; i <= x; i++) {
             result += i;
         }
         return result;
