@@ -18,5 +18,4 @@ public class FourthCyclesTask {
     public static void main(String[] args) {
         System.out.println(squareMultiplication());
     }
-
 }
