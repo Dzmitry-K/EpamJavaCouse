@@ -8,7 +8,7 @@ public class FourthCyclesTask {
     static BigInteger squareMultiplication(){
         BigInteger res = BigInteger.valueOf(1);
         BigInteger pre_res;
-        for (int i = 2; i < 20; i++) {
+        for (int i = 2; i < 200; i++) {
             pre_res = BigInteger.valueOf(i).multiply(BigInteger.valueOf(i));
             res = res.multiply(pre_res);
         }
