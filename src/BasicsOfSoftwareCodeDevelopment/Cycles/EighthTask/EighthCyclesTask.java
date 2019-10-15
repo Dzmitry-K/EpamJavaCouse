@@ -7,8 +7,8 @@ import java.util.TreeSet;
  * Даны два числа. Определить цифры, входящие в запись как первого так и второго числа.
  */
 public class EighthCyclesTask {
-    static Set<Character> digitsInNumbers(int firstNumber, int secondNumber) {
-        Set<Character> set = new TreeSet<>();
+    static Set<Integer> digitsInNumbers(int firstNumber, int secondNumber) {
+        Set<Integer> set = new TreeSet<>();
         String firstNumberToString = String.valueOf(firstNumber);
         String secondNumberToString = String.valueOf(secondNumber);
         char[] firsNummerInArray = firstNumberToString.toCharArray();
@@ -16,7 +16,7 @@ public class EighthCyclesTask {
         for (char i = 0; i < firsNummerInArray.length; i++) {
             for (char j = 0; j < secondNumberInArray.length; j++) {
                 if (firsNummerInArray[i] == secondNumberInArray[j]) {
-                    set.add(firsNummerInArray[i]);
+                    set.add(Character.getNumericValue(firsNummerInArray[i]));
                 }
             }
         }
