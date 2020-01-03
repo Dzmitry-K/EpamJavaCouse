@@ -16,7 +16,7 @@ public class Task_2 {
 
     public static int[][] createMatrix(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter matrix dimension: ");
+        System.out.print("Enter matrix dimension: ");
         int x = scanner.nextInt();
         return new int[x][x];
     }
