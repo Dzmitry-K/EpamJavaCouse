@@ -27,7 +27,7 @@ public class SecondTask {
             }
         }
         if (count == 0) {
-            System.out.println("Replacements = 0.");
+            System.out.println("Replacements = 0");
         } else {
             System.out.println("The count of change: " + count);
         }
