@@ -1,5 +1,9 @@
 package Algorithmization.Multi_Array.Task_2;
 
+/**
+ * Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.
+ */
+
 import java.util.Scanner;
 
 public class Task_2 {
