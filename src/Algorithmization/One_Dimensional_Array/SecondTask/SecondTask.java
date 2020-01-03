@@ -13,7 +13,7 @@ public class SecondTask {
     public static int[] createArray(int[] arr) {
         int size = arr.length;
         for (int i = 0; i < size; i++) {
-            arr[i] = (int) (Math.random() * size);
+            arr[i] = (int) Math.round((Math.random() * 100) - 50);
         }
         return arr;
     }
