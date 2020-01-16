@@ -18,11 +18,11 @@ public class Task_1 {
         if(k > array1.length) {
             System.out.println("Значение k не должно превышать длину первого массива.");
         } else {
-            int[] mass = new int[array1.length + array2.length];
-            System.arraycopy(array1, 0, mass, 0, array1.length);
-            System.arraycopy(array2, 0, mass, k, array2.length);
-            System.arraycopy(array1, k, mass, k + array2.length, array1.length - k);
-            System.out.println(Arrays.toString(mass));
+            int[] rezArray = new int[array1.length + array2.length];
+            System.arraycopy(array1, 0, rezArray, 0, array1.length);
+            System.arraycopy(array2, 0, rezArray, k, array2.length);
+            System.arraycopy(array1, k, rezArray, k + array2.length, array1.length - k);
+            System.out.println(Arrays.toString(rezArray));
         }
     }
 }
